@@ -26,9 +26,10 @@ Dipersilakan untuk teman-teman dalam berkontribusi pada setiap repository yang a
 
 Hubungi kami lebih lanjut melalui [email](mailto:bystudent.ccit@gmail.com).
 
-
 # How To
+
 Here are some steps to build and deploy our website:
+
 ```bash
 # Clone this repository
 git clone https://github.com/bystudent-ccit/gatsby-site.git

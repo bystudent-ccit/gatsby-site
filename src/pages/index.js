@@ -1,6 +1,4 @@
 import React from "react"
-import UIkit from "uikit"
-import Icons from "uikit/dist/js/uikit-icons"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -101,26 +99,12 @@ const Goals = () => (
   </div>
 )
 
-class Index extends React.Component {
-  constructor() {
-    super()
-
-    /** Reference to UIkit object */
-    this.UIkit = UIkit
-    this.UIkit.use(Icons)
-  }
-
-  render() {
-    return (
-      <div>
-        <SEO />
-        <Layout>
-          <Hero />
-          <Goals />
-        </Layout>
-      </div>
-    )
-  }
-}
-
-export default Index
+export default () => (
+  <div>
+    <SEO />
+    <Layout>
+      <Hero />
+      <Goals />
+    </Layout>
+  </div>
+)
